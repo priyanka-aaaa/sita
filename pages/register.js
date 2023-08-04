@@ -92,7 +92,7 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="no-acc-sign">
-            <h5 className="sign-in text-center"> Register Now</h5>
+            <h5 className="sign-in text-center"> cccccRegister Now</h5>
             <p className="sign-in text-center">
               Lorem Lpsum is simply dummy test of the prinnting and typesetting
               industry.

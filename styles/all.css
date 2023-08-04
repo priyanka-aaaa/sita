@@ -201,9 +201,18 @@ section.our-service {
     display: flex;
   justify-content: center;
   align-items: center;
- /* Set the desired height for the container */
-  /* background-image: url('path/to/your/image.jpg'); */
-  background-image: url("/images/service-top.png");
+
+  background-size: cover; /* Adjust this as needed */
+}
+section.our-contact {
+    height: 500px;
+   
+    background-image: url("/images/contact-top.png");
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-size: cover; /* Adjust this as needed */
 }
 

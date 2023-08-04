@@ -8,6 +8,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
 import React, { useState } from "react";
 import HomeLayout from '../components/HomeLayout';
 import Loader from '../components/Loader';
+//detail
 export default function Home() {
   const [firstname, setfirstname] = useState("");
   const [lastname, setlastname] = useState("");

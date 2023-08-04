@@ -32,7 +32,7 @@ export const Header = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link legacyBehavior href='/rental' className="nav-link" >
+                        <Link legacyBehavior href='/equipment' className="nav-link" >
                             <a className="nav-link" href="#">RENTAL
                                 EQUIPMENT</a>
                         </Link>

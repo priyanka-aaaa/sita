@@ -1,4 +1,13 @@
 /* start for home page */
+.sport-brand {
+    display: flex;
+    gap: 150px;
+    padding-top: 50px;
+}
+img.sport-brand-img {
+    width: 141px;
+    height: auto;
+}
 .event-type {
     display: flex;
     /* justify-content: space-between; */
@@ -88,7 +97,7 @@ p.sport-service-para {
     padding-top: 25px;
 }
 section.purchase-ticket {
-    padding-top: 30px;
+    padding-top: 45px;
     padding-bottom: 38px;
     max-height: 783px;
 }
@@ -142,7 +151,11 @@ h2.sporting-service-heading {
     -ms-transform: scale(2,3);
     -o-transform: scale(2,3);
 }
-
+section.our-service {
+    min-height: 500px;
+   
+    background-image: url("/images/service-top.png");
+}
 
 section.sporing-service {
     min-height: 500px;

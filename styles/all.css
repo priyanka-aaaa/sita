@@ -1,4 +1,18 @@
 /* start for home page */
+h2.our-service-heading {
+    -webkit-transform: scale(1.5,1.6);
+}
+.row.our-service {
+    color: #fff;
+    /* height: 300px; */
+    /* width: 645px; */
+    text-align: center;
+    /* line-height: 400px; */
+    /* border: 2px solid black; */
+    padding-top: 60px;
+    width: 70%;
+    margin: auto;
+}
 .sport-brand {
     display: flex;
     gap: 150px;

@@ -54,17 +54,16 @@ export default function Home() {
   return (
     <HomeLayout>
       <section class="our-service">
-        <div class="row sporting-service" >
-          <h2 class="sporting-service-heading">SPORTING SERVICES <br />YOU NEED</h2>
-          <p class="sport-service-para">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+        <div className='container'>
+        <div class="row our-service" >
+          <h2 class="our-service-heading">OUR SERVICES</h2>
+          <p class="our-service-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point o
           </p>
-          <div className="row">
-            <button type="submit" className="btn read-more">
-              <span className="quick_reg">Read More</span>
-            </button>
-          </div>
+         
         </div>
+        </div>
+        
       </section>
       <div class="container-fluid home-detail">
         <div class="row">

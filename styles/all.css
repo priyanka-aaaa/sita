@@ -1,4 +1,17 @@
 /* start for home page */
+a.address-contact {
+    text-decoration: none;
+    color: #d4262b;
+    font-weight: 600;
+}
+h3.hour-heading {
+    color: #3834af;
+    font-weight: bold;
+}
+.container-fluid.hour-detail {
+    padding: 40px 0px;
+    text-align: center;
+}
 .rental-equip-detail {
     width: 90% !important;
     margin: auto;

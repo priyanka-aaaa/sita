@@ -1,4 +1,23 @@
 /* start for home page */
+.rental-equip-detail {
+    width: 90% !important;
+    margin: auto;
+    margin-right: unset;
+}
+.row.btn-enquire-submit {
+    width: 43%;
+}
+h2.rental-sport-heading {
+    padding-top: 30px;
+    padding-bottom: 43px;
+    /* padding: 21px; */
+    font-size: 37px;
+    font-weight: bold;
+    -webkit-transform: scale(1,1.7);
+    -moz-transform: scale(2,3);
+    -ms-transform: scale(2,3);
+    -o-transform: scale(2,3);
+}
 h2.our-service-heading {
     -webkit-transform: scale(1.5,1.6);
     padding-bottom: 13px;
@@ -146,7 +165,8 @@ button.btn.btn-info.latest-event {
     padding: 10px 20px;
 }
 .latest-event {
-    padding-top: 50px;
+    padding-top: 69px;
+    padding-bottom: 27px;
 }
 button.btn.read-more {
     width: 9%;
@@ -544,3 +564,4 @@ footer.text-center.text-lg-start.text-white {
             font-weight: 400;
         }
  
+      

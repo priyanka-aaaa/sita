@@ -55,15 +55,15 @@ export default function Home() {
     <HomeLayout>
       <section class="our-service">
         <div className='container'>
-        <div class="row our-service" >
-          <h2 class="our-service-heading">OUR SERVICES</h2>
-          <p class="our-service-para">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point o
-          </p>
-         
+          <div class="row our-service" >
+            <h2 class="our-service-heading">OUR SERVICES</h2>
+            <p class="our-service-para">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point o
+            </p>
+
+          </div>
         </div>
-        </div>
-        
+
       </section>
       <div class="container-fluid home-detail">
         <div class="row">
@@ -71,23 +71,27 @@ export default function Home() {
             <button type="button" class="btn btn-info latest-event">Latest Events</button>
           </div>
         </div>
-    </div>
-       <section class="rental-sport">
+      </div>
+      <section class="rental-sport">
         <div class="row">
-        <div class="latest-event">
+          <div class="rental-equip-detail">
+
+       
+          <div class="latest-event">
             <button type="button" class="btn btn-info latest-event">Supports Equipment</button>
           </div>
           <h2 className='rental-sport-heading'>
-          RENTAL SPORTS EQUIPMENT THAT YOU NEED  
+            RENTAL SPORTS EQUIPMENT <br/>THAT YOU NEED
           </h2>
           <div className="row btn-enquire-submit">
-                  <button type="submit" className="btn purchase-submit">
-                    <span className="quick_reg">ENQUIRE NOW</span>
-                  </button>
-                </div>
+            <button type="submit" className="btn enquire-now">
+              <span className="quick_reg">ENQUIRE NOW</span>
+            </button>
+          </div>
+          </div>
         </div>
-       </section>
-       <div class="container-fluid home-detail">
+      </section>
+      <div class="container-fluid home-detail">
         <div class="sport-brand">
           <img src="/images/sport-brand1.jpg" className="sport-brand-img" alt="logo" />
           <img src="/images/sport-brand2.jpg" className="sport-brand-img" alt="logo" />
@@ -99,67 +103,67 @@ export default function Home() {
           <div class="row">
             <div class="col-md-6">
               <div class="purchase-img">
-              <img src="/images/purchase.png" className="purchase-img" alt="logo" />
+                <img src="/images/purchase.png" className="purchase-img" alt="logo" />
               </div>
-            
+
             </div>
             <div class="col-md-6">
               <div class="purchase-ticket-form">
 
-           
-              <h3 class="purchase-heading">
-                PURCHASING TICKETS
-              </h3>
-              <div class="admin-contact">
-              <p class="purchase-para">
-                The event of purchasing tickets for others
-              </p>
-              <p>info@example.com</p>
-              <p>+012345677899</p>
+
+                <h3 class="purchase-heading">
+                  PURCHASING TICKETS
+                </h3>
+                <div class="admin-contact">
+                  <p class="purchase-para">
+                    The event of purchasing tickets for others
+                  </p>
+                  <p>info@example.com</p>
+                  <p>+012345677899</p>
+                </div>
+
+                <form onSubmit={handleSubmit}>
+                  <div className="row">
+                    <div className=" mt-3">
+                      <input required
+                        type="text"
+                        onChange={(e) => setfirstname(e.target.value)}
+                        className="form-control purchase_form"
+                        placeholder="Name"
+                        value={firstname}
+                      />
+                    </div>
+                    <div className=" mt-3">
+                      <input required
+                        type="text"
+                        onChange={(e) => setlastname(e.target.value)}
+                        className="form-control purchase_form"
+                        placeholder="Email"
+                        value={lastname}
+                      />
+                    </div>
+                  </div>
+                  <div className=" mt-3">
+                    <input required
+                      type="text"
+                      onChange={(e) => setphone(e.target.value)}
+                      className="form-control purchase_form"
+                      placeholder="Event"
+                      value={phone}
+                    />
+                  </div>
+                  <div className="mb-3 mt-3">
+                    <textarea class="form-control" id="purchase-text" rows="4" placeholder='Type your message'></textarea>
+                  </div>
+                  <div className="row btn-purchase-submit">
+                    <button type="submit" className="btn purchase-submit">
+                      <span className="quick_reg">Submit</span>
+                    </button>
+                  </div>
+
+                </form>
               </div>
-             
-              <form onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className=" mt-3">
-                    <input required
-                      type="text"
-                      onChange={(e) => setfirstname(e.target.value)}
-                      className="form-control purchase_form"
-                      placeholder="Name"
-                      value={firstname}
-                    />
-                  </div>
-                  <div className=" mt-3">
-                    <input required
-                      type="text"
-                      onChange={(e) => setlastname(e.target.value)}
-                      className="form-control purchase_form"
-                      placeholder="Email"
-                      value={lastname}
-                    />
-                  </div>
-                </div>
-                <div className=" mt-3">
-                  <input required
-                    type="text"
-                    onChange={(e) => setphone(e.target.value)}
-                    className="form-control purchase_form"
-                    placeholder="Event"
-                    value={phone}
-                  />
-                </div>
-                <div className="mb-3 mt-3">
-                  <textarea class="form-control" id="purchase-text" rows="4" placeholder='Type your message'></textarea>
-                </div>
-                <div className="row btn-purchase-submit">
-                  <button type="submit" className="btn purchase-submit">
-                    <span className="quick_reg">Submit</span>
-                  </button>
-                </div>
-               
-              </form>
             </div>
-          </div>
           </div>
         </section>
       </div>

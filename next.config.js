@@ -11,9 +11,9 @@ module.exports = {
   },
   env: {
 
-    REACT_APP_SERVER_URL: 'https://okapp.vercel.app/',
+    REACT_APP_SERVER_URL: 'https://sita-fawn.vercel.app/',
 
-    REACT_APP_API_URL: 'https://okapp.vercel.app/',
+    REACT_APP_API_URL:  'https://sita-fawn.vercel.app/',
     // REACT_APP_API_URL: 'http://localhost:3000/',
 
     

@@ -1,6 +1,8 @@
 /* start for home page */
 h2.our-service-heading {
     -webkit-transform: scale(1.5,1.6);
+    padding-bottom: 13px;
+    font-weight: 700;
 }
 .row.our-service {
     color: #fff;
@@ -165,10 +167,24 @@ h2.sporting-service-heading {
     -ms-transform: scale(2,3);
     -o-transform: scale(2,3);
 }
+
+section.rental-sport {
+    height: 500px;
+   
+    background-image: url("/images/rental-support.png");
+}
 section.our-service {
-    min-height: 500px;
+    height: 500px;
    
     background-image: url("/images/service-top.png");
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ /* Set the desired height for the container */
+  /* background-image: url('path/to/your/image.jpg'); */
+  background-image: url("/images/service-top.png");
+  background-size: cover; /* Adjust this as needed */
 }
 
 section.sporing-service {
